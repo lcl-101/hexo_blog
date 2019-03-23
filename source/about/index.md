@@ -1,6 +1,6 @@
 ---
-layout: "about"
 title: "About"
+layout: about
 date: 2016-04-21 04:48:33
 description: "Hey, this is LcL."
 header-img: "img/header_img/about-bg.jpg"
