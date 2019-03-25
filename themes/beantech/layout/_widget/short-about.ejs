@@ -1,5 +1,5 @@
 <!-- Short About -->
-<section class="visible-md visible-lg">
+<section class="hidden-xs hidden-sm visible-md visible-lg">
     <h5><a href="<%= config.root %>about/">ABOUT ME</a></h5>
     <div class="short-about">
 
@@ -76,8 +76,8 @@
                     </a>
                 </li>
             <% } %>
-            
-            
+
+
             <% if (config.linkedin_username) { %>
                 <li>
                     <a target="_blank"  href="https://www.linkedin.com/in/<%= config.linkedin_username %>">
@@ -90,4 +90,5 @@
             <% } %>
         </ul>
     </div>
+    <hr>
 </section>

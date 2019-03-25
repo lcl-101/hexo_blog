@@ -1,6 +1,6 @@
 <!-- Featured Tags -->
 <% if(config['featured-tags']) { %>
-<section>
+<section class="hidden-xs hidden-sm visible-md visible-lg">
     <!-- no hr -->
     <h5><a href="<%= config.root %>tags/">FEATURED TAGS</a></h5>
     <div class="tags">
@@ -10,5 +10,6 @@
             <% } %>
         <% }) %>
     </div>
+    <hr>
 </section>
 <% }%>
