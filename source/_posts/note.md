@@ -1,14 +1,14 @@
 ---
-layout:     keynote
-iframe:     "http://yanshuo.io/assets/player/?deck=579d729579bc4400547b32ed"
+layout:     post
 title:      "note(放一些有用的小技巧)"
 date:       2016-07-21 1:50:00
 subtitle:   "Soon learn, soon forgotten"
 author:     "lcl"
+header-img:   "post-bg-unix-linux.jpg"
 catalog: true
 tags:
-    - javascript 
-    - html 
+    - javascript
+    - html
     - css
 ---
 
@@ -64,7 +64,7 @@ if( !('placeholder' in document.createElement('input')) ){
             }
         });
     });
-} 
+}
 ```
 
 ### 自由落体
@@ -114,7 +114,7 @@ word-wrap:break-word;
 
 ```css
 父元素中:
-    
+
 display:-moz-box;
 display:-webkit-box;
 display:box;
@@ -132,13 +132,13 @@ flex-direction: column;
 -o-flex-direction: column;
 
 子元素中:
-    
+
 -webkit-flex: 10;
 -moz-flex: 10;
 -ms-flex: 10;
 -o-flex: 10;
 flex: 10;
-    
+
 -webkit-box-flex:10;
 -moz-box-flex:10;
 box-flex:10;
