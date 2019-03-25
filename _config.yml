@@ -175,3 +175,6 @@ deploy:
   type: git
   repository: https://github.com/lcl-101/lcl-101.github.io.git
   branch: master
+
+toc:
+  maxDepth: 3
