@@ -1034,7 +1034,6 @@ body {
 }
 .archive-article-header h2 {
   margin: 0;
-  padding-left: 3rem;
 }
 .archive-article-header h2 .archive-article-title {
   text-decoration: none;
@@ -1047,8 +1046,8 @@ body {
 .archive-article-date::before {
   content: '';
   position: absolute;
-  top: 15px;
-  left: -42px;
+  top: 16px;
+  left: -3.5rem;
   width: 1rem;
   height: 1rem;
   -webkit-border-radius: 1rem;
@@ -1058,4 +1057,8 @@ body {
 }
 .archive-article.archive-type-post {
   overflow-x: visible;
+}
+.archive-article-date {
+  width: 6rem;
+  display: block;
 }
