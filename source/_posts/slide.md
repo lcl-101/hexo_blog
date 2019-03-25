@@ -1,10 +1,12 @@
 ---
-layout:       post
-title:        "基于面向对象轮播图插件"
-data:         2016-12-23 15:00:00
-author:       "lcl"
-header-img:   "post-bg-e2e-ux.jpg"
-catalog:      true
+layout:     post
+title:      "基于面向对象轮播图插件"
+subtitle:   " "
+date:       2016-12-23 15:00:00
+author:     "lcl"
+header-img: "post-bg-e2e-ux.jpg"
+catalog: true
+weather: sunny # 天气
 tags:
     - javascript
 ---

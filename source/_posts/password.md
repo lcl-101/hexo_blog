@@ -1,10 +1,12 @@
 ---
 layout:     post
 title:      "浏览器自动填充表单问题"
-data:       "2017-3-22 11.59"
-author:       "lcl"
-header-img:   "post-bg-os-metro.jpg"
-catalog:      true
+subtitle:   " "
+date:       2017-3-22 11:59:00
+author:     "lcl"
+header-img: "post-bg-os-metro.jpg"
+catalog: true
+weather: sunny # 天气
 tags:
     - html
     - javascript
