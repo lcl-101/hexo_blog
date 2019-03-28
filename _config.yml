@@ -178,3 +178,7 @@ deploy:
 
 toc:
   maxDepth: 3
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchors
