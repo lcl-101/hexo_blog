@@ -5,22 +5,24 @@
 <%- partial('_partial/head') %>
 
 <!-- hack iOS CSS :active style -->
-<body ontouchstart="">
-	<%- partial('_partial/header',{cache: true}) %>
-
+<body ontouchstart="" id='body'>
+		<div id="ProgressBar" style="position: fixed;top: 0;width: 100%;z-index: 1;line-height: 0;font-size: 0;"></div>
     <%- partial('_partial/nav',{cache: true}) %>
 
-    <!-- Main Content -->
-    <%- body %>
+		<div id="page_content">
+			<%- partial('_partial/header',{cache: true}) %>
+			<!-- Main Content -->
+			<%- body %>
+		</div>
 
     <!-- Footer -->
     <%- partial('_partial/footer') %>
 
 
 	<!-- <a id="rocket" href="#top" class=""></a> -->
+	<script type="text/javascript" src="/js/progressbar.min.js"></script>
 	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
   <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
-
 </body>
 
 </html>
