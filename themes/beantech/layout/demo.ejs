@@ -1,0 +1,65 @@
+---
+layout: layout
+---
+<style>
+    .main-box {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .qing-transform {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        background: green;
+    }
+    #btn {
+        position: absolute;
+        left: 40%;
+    }
+</style>
+
+<div class="main-box">
+    <div class="qing-transform"></div>
+</div>
+
+<button id="btn">开始</button>
+<script>
+    var flag = true;
+    var btn = document.getElementById("btn");
+    function bounce(t){
+        var ts=t * t * 8.0;
+        return ts;
+    }
+    function getInterpolation(t){
+        var t = t*1.1226;
+        if(t<0.3535){
+            return bounce(t);
+        }else if(t < 0.7408){
+            return bounce(t - 0.54719) + 0.7;
+        }else if(t < 0.9644){
+            return bounce(t - 0.8526) + 0.9;
+        }else {
+            return bounce(t - 1.0435) + 0.95;
+        }
+    }
+
+    btn.onclick = function (){
+        if(flag){
+            var tt=0;
+            setInterval(function(){
+                tt++;
+                if(tt>=1000){
+                    return;
+                }
+                var s= -500*getInterpolation(tt / 1000)+500;
+                $('.qing-transform').show().css({bottom: s +'px'})
+            },1)
+            flag = false;
+        }
+    }
+</script>
