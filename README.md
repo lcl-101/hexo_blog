@@ -106,3 +106,18 @@ hexo deploy # hexo will push the static files automatically into the specific br
 
 Please [Star](https://github.com/YenYuHsuan/hexo-theme-beantech) this Project if you like it! [Follow](https://github.com/YenYuHsuan) would also be appreciated!
 Peace!
+
+hexo 常用命令
+
+1. 启动服务器
+       hexo server
+
+2. 清除缓存文件 
+       hexo clean
+
+3. 生成静态文件。
+       hexo g
+
+4. 部署网站。
+       hexo d
+
