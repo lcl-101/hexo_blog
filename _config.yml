@@ -1,13 +1,13 @@
 # Site
-title: Lcl Blog
-subtitle: 李成龙的博客 | Lcl Blog
-author: LiChengLong
-language: en
+title: LCL`Blog
+subtitle: 李成龙的博客 | LCL`Blog
+author: LCL
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: "https://lcl-101.github.io"        # Note: don't forget to modify the CNAME file to your url
+url: "https://blog.lcl101.cn/"        # Note: don't forget to modify the CNAME file to your url
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -164,7 +164,7 @@ markdown:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: beantech
+theme: next
 
 #sitemap
 sitemap:

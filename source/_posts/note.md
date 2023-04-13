@@ -17,6 +17,8 @@ tags:
 
 这里会放一些平时经常用的一些js,html,css等的方法,和动画.
 
+<!--more-->
+
 <div style='font-size:28px;color:#8a6d3b;font-weight: bold;'>js部分</div>
 
 

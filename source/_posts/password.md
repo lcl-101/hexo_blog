@@ -24,12 +24,14 @@ tags:
 | safari | 10.0 (12602.1.50.0.10) |
 | ie(win) | 7-8 |
 ## 首先要分析浏览器是如何记住这个表单的，和唯一性？
+<!--more-->
 ---
      经过查资料实验得到的几个关键值
      1. 为了遵循同源策略，需要域名：lichenglong.pw
      2. 需要一个<form>标签
      3. 需要id或name为username的用户名<input>表单项
      4. 需要id或name为password的密码<input>表单项
+
 
 例如：
 ```html

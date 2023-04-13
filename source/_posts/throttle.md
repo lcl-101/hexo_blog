@@ -25,6 +25,9 @@ function throttle(method,context){
       },500);
     }
 ```
+
+<!--more-->
+
 网页[demo](https://github.com/lcl-101/example/tree/master/%E8%8A%82%E6%B5%81%E5%87%BD%E6%95%B0)
 
 小程序测试 demo (用例> 节流函数)
