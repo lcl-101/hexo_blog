@@ -176,9 +176,9 @@ deploy:
   repository: https://github.com/lcl-101/lcl-101.github.io.git
   branch: master
 
-toc:
-  maxDepth: 3
-  anchor:
-    position: after
-    symbol: '#'
-    style: header-anchors
+#toc:
+#  maxDepth: 3
+#  anchor:
+#    position: after
+#    symbol: '#'
+#    style: header-anchors
